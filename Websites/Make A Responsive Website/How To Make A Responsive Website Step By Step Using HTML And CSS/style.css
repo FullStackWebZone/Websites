@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+	background: #1d1e22;
+}
+.container{
+	background: #1e1f23;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 30px 90px 70px 90px;
+	box-shadow:
+  0 4.5px 3.1px rgba(0, 0, 0, 0.082),
+  0 12.5px 8.6px rgba(0, 0, 0, 0.111),
+  0 30.1px 20.8px rgba(0, 0, 0, 0.136),
+  0 100px 69px rgba(0, 0, 0, 0.2)
+;
+}
+.container .back{
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+}
+
+.container .back img{
+	width: 100%;
+
+}
+
+.container .heading {
+	background:#fff;
+	width: 100%;
+	padding: 80px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.container .heading  h3{
+	width: 100%;
+	font-size: 1.5em;
+	font-weight: 900;
+	color: #1e1f23;
+	padding-bottom: 15px;
+
+}
+.container .heading  hr{
+	width: 10%;
+	font-size: 1.5em;
+	font-weight: 900;
+	color: #1e1f23;
+	margin-bottom: 15px;
+
+}
+
+.container .heading  p{
+	width: 100%;
+	font-weight: 400;
+	color: #ccc;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	font-size: 0.8em;
+
+}
+
+.container .details{
+	width: 100%;
+	background:#f4f4f4;
+	padding: 100px;
+}
+
+.container .details p{
+	text-align: justify;
+	width: 100%;
+	font-size: 0.8em;
+	font-weight: 300;
+	color: #95a5a6;
+	letter-spacing: 3px;
+	line-height: 20px;
+}
+
+.container .gallery{
+	margin: 70px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.container .gallery .head{
+	background: #121315;
+	width: 80%;
+	padding: 50px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.container .gallery .head  h3{
+	width: 100%;
+	font-size: 1.5em;
+	font-weight: 900;
+	color: #fff;
+	padding-bottom: 15px;
+
+}
+.container .gallery .head  hr{
+	width: 10%;
+	font-size: 1.5em;
+	font-weight: 900;
+	color: #34495e;
+	margin-bottom: 15px;
+
+}
+
+.container .gallery .head  p{
+	width: 100%;
+	font-weight: 400;
+	color: #34495e;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	font-size: 0.8em;
+
+}
+.container .gallery .img-gallery{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 80%;
+	flex-wrap: wrap;
+}
+
+.container .gallery .img-gallery .img1{
+	width: 50%;
+	box-sizing: border-box;
+	overflow:hidden;
+}
+
+.container .gallery .img-gallery .img1 img{
+	width: 100%;
+	
+}
+.container .box{
+	width: 100%;
+	margin: 70px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	box-sizing: border-box;
+}
+.container .box .box1{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	box-sizing: border-box;
+	background: #faf8f6;
+}
+
+.container .box .box1 .img-box{
+	width: 50%;
+	box-sizing: border-box;
+}
+.container .box .box1 .img-box img{
+	width: 100%;
+
+}
+
+.container .box .box1 .box-details{
+	width: 50%;
+	box-sizing: border-box;
+	text-align: justify;
+	padding:0 80px;
+}
+
+.container .box .box1 .box-details h3{
+	width: 100%;
+	color: #222;
+	padding-bottom: 15px;
+	font-size: 1.2em;
+}
+.container .box .box1 .box-details p{
+	width: 100%;
+	color: #95a5a6;
+	font-size: 0.9em;
+	word-spacing: 3px;
+
+}
+.container .box .box2{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	box-sizing: border-box;
+	background: #faf8f6;
+}
+
+.container .box .box2 .img-box{
+	width: 50%;
+	box-sizing: border-box;
+}
+.container .box .box2 .img-box img{
+	width: 100%;
+
+}
+
+.container .box .box2 .box-details{
+	width: 50%;
+	box-sizing: border-box;
+	text-align: justify;
+	padding:0 80px;
+}
+
+.container .box .box2 .box-details h3{
+	width: 100%;
+	color: #222;
+	padding-bottom: 15px;
+	font-size: 1.2em;
+}
+.container .box .box2 .box-details p{
+	width: 100%;
+	color: #95a5a6;
+	font-size: 0.9em;
+	word-spacing: 3px;
+}
+
+.container .follow{
+	padding: 60px 0;
+}
+.container .follow ul {
+	display: flex;
+	flex-direction: row;justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+.container .follow ul li{
+	list-style: none;
+	padding-right: 15px;
+}
+.container .follow ul li i{
+	color: #ccc;
+	font-size: 2.2em;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 885px){
+
+
+.container{
+	margin: 0;
+	box-shadow:0;
+	width: 100%;
+}
+
+
+.container .heading  h3{
+	
+	font-size: 1.1em;
+
+}
+
+.container .heading  p{
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	font-size: 0.7em;
+
+}
+.container .details{
+	padding: 60px;
+}
+
+
+.container .gallery .head  h3{
+	font-size: 1.1em;
+
+}
+
+.container .gallery .head  p{
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	font-size: 0.7em;
+
+}
+.container .gallery .img-gallery{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: nowrap;
+}
+
+.container .gallery .img-gallery .img1{
+	width: 100%;
+
+}
+.container .box .box1{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-bottom: 25px;
+}
+
+.container .box .box1 .img-box{
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.container .box .box1 .box-details{
+	width: 100%;
+	padding:0 60px;
+}
+
+.container .box .box1 .box-details h3{
+	padding-bottom: 10px;
+	font-size: 1.1em;
+}
+.container .box .box1 .box-details p{
+	font-size: 0.8em;
+	word-spacing: 2px;
+
+}
+
+
+.container .box .box2{
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: space-around;
+	padding-bottom: 25px;
+}
+
+.container .box .box2 .img-box{
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.container .box .box2 .box-details{
+	width: 100%;
+	padding:0 60px;
+}
+
+.container .box .box2 .box-details h3{
+	padding-bottom: 10px;
+	font-size: 1.1em;
+}
+.container .box .box2 .box-details p{
+	font-size: 0.8em;
+	word-spacing: 2px;
+
+}
+
+
+
+
+}

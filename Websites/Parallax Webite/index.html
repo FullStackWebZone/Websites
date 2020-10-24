@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+	</head>
+	<body>
+		<section>
+			<header>
+				<a href="#" class="logo">World</a>
+				<div class="toggle"></div>
+			</header>
+			<img src="bg.jpg" class="bg">
+			<img src="bird.png" class="bird">
+			<div class="content">
+				<h2>We Can Save The<br><span>Earth</span></h2>
+				<p>This paper presents a study conducted to allow urban farmers to remotely monitor their farm through the design and development of an Internet of Things-based (IoT) microfarm prototype which utilized wick system as planting method. The system involves the detection of three environmental parameters namely, light intensity, soil moisture and temperature through the use of respective sensors which were connected to the Arduino microcontroller, the sensor node of the system.</p>
+				<a href="#">Join Us</a>
+			</div>
+			<ul class="sci">
+				<li><a href="#"><img src="facebook.png"></a></li>
+				<li><a href="#"><img src="twitter.png"></a></li>
+				<li><a href="#"><img src="instagram.png"></a></li>
+			</ul>
+			<div class="textBlocks">
+				<div class="block">
+					<h3>Defenders of Earth</h3>
+					<p>This paper presents a study conducted to allow urban farmers to remotely monitor their farm through the design and development of an Internet of Things-based (IoT) microfarm prototype which utilized wick system as planting method.</p>
+				</div>
+				<div class="block">
+					<h3>How to Save Water</h3>
+					<p>This paper presents a study conducted to allow urban farmers to remotely monitor their farm through the design and development of an Internet of Things-based (IoT) microfarm prototype which utilized wick system as planting method.</p>
+				</div>
+			</div>
+		</section>
+		<script type="text/javascript">
+			document.addEventListener("mousemove", function(e){
+				const bg = document.querySelector('.bg');
+				const bird = document.querySelector('.bird');
+				const content = document.querySelector('.content');
+
+				bg.style.width = 100 + e.pageX/100 + '%';
+				bg.style.height = 100 + e.pageX/100 + '%';
+
+				bird.style.right =100 + e.pageX/2 + 'px';
+                content.style.left =100 + e.pageX/2 + 'px';
+			})
+		</script>
+	</body>
+</html>
